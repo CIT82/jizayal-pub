@@ -84,3 +84,10 @@
     - `footer`
 * **Research:** How is this section styled compared to the rest of the site?
     - The footer section differs from the rest of the site because it doesn't use the `section` class. It has it's own top and bottom padding.
+    
+## Section 4: The Scripts
+* **Vendor JS Files:**: Lines 1601-1608
+    - Bootstrap: Line 1601
+    - AOS (Animate on Scroll): Line 1603
+    - Swiper: Line 1607
+* **Main JS File:** Line 1611
