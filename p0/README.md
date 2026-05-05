@@ -58,3 +58,29 @@
     - `light-background`: applies a soft off-white background
 * **Research:** How does the template handle the container or spacing here?
     - The About section uses Bootstrap's standard `.container` class and there is a `.container` div for both the section title and content. The outter spacing has 60px of room on the top and bottom, and the inside of the section uses a `col-lg-6` grid and `gy-5` gap. 
+
+## Section 3: Site Inventory (Bottom Half)
+
+### Portfolio
+* **Line Numbers:** Lines 855-988
+* **Top-Level Classes:** 
+    - `portfolio`
+    - `section`
+* **Research:** What do these classes do to this section's layout?
+    - `portfolio`: controls the sidebar layout and image grid
+    - `section`: handles the padding
+
+### Contact
+* **Line Numbers:** Lines 1412-1526
+* **Top-Level Classes:** 
+    - `contact`
+    - `section`
+* **Research:** How does the template handle the layout here?
+    - The contact section has a custom max-width and a two-column split that uses CSS Grid instead of Bootstrap. On mobile it stacks into a single column, and on desktop it splits into a 38/62 uneven split. 
+
+### The Footer
+* **Line Numbers:** Lines 1530-1592
+* **Top-Level Classes:** 
+    - `footer`
+* **Research:** How is this section styled compared to the rest of the site?
+    - The footer section differs from the rest of the site because it doesn't use the `section` class. It has it's own top and bottom padding.
